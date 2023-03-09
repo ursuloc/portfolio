@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="claymorphism-css/dist/clay.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="clay header">
+      <nav class="header-nav">
+        <h4>Ursulo Cabeza</h4>
+        <ul>
+          <li><a href="index.html#projects" class="clay">Projects</a></li>
+          <li><a href="index.html#about" class="clay">About</a></li>
+          <li><a href="index.html#contact" class="clay">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main-content">
+      <div class="clay main-card">
+        <h1>Hi I'm Ursulo</h1>
+        <div class="clay card-mini">
+          <h3>I'm a front end developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            temporibus!
+          </p>
+          <a class="clay" href="index.html#projects">Projects</a>
+        </div>
+      </div>
+      <figure class="main-figure">
+        <img
+          src="assets/img/3d-casual-life-boy-with-laptop-sitting-on-floor.png"
+          alt=""
+        />
+      </figure>
+    </section>
+    <section class="section-projects" id="projects">
+      <div class="projects-content">
+        <h3>Projects</h3>
+        <div class="clay projects-cards">
+          <div class="clay pj-card">
+            <a href="#"></a>
+          </div>
+          <div class="clay pj-card">
+            <a href="#"></a>
+          </div>
+          <div class="clay pj-card">
+            <a href="#"></a>
+          </div>
+          <div class="clay pj-card">
+            <a href="#"></a>
+          </div>
+          <div class="clay pj-card">
+            <a href="#"></a>
+          </div>
+          <div class="clay pj-card">
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-about" id="about">
+      <div class="about-content">
+        <h3>About Me</h3>
+        <div class="about-info">
+          <div class="about-text">
+            <div class="clay about-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              aspernatur excepturi autem, exercitationem mollitia provident enim
+              earum molestias impedit minus commodi, cupiditate illo suscipit
+              laboriosam dolor sequi necessitatibus consequuntur rerum. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              commodi!
+              <a class="clay" href="index.html#contact">Contact</a>
+            </div>
+            <div class="about-skills">
+              <ul>
+                <li class="clay">html</li>
+                <li class="clay">css</li>
+                <li class="clay">javascript</li>
+                <li class="clay">sass</li>
+                <li class="clay">tailwind</li>
+                <li class="clay">git & <span>github</span></li>
+              </ul>
+            </div>
+          </div>
+          <figure class="clay about-img">
+            <img src="assets/img/face.jpg" alt="profile picture" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="section-contact" id="contact">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact</h3>
+          <div class="contact-sn">
+            <a href="https://www.linkedin.com/in/ursuloc/" target="_blank">
+              <img src="assets/img/linkedin-logo.png" alt="" />
+            </a>
+            <a href="https://github.com/ursuloc" target="_blank">
+              <img src="assets/img/github-logo.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <form
+          class="clay contact-form"
+          action="https://formsubmit.co/your@email.com"
+          method="POST"
+        >
+          <div class="">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              title="please fill in the empty space"
+              required
+              id="name"
+              class="clay"
+            />
+          </div>
+          <div class="">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="correo"
+              placeholder="Enter Your Email"
+              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+              title="please fill in the empty space"
+              required
+              id="email"
+              class="clay"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="comentarios"
+              cols="30"
+              rows="10"
+              placeholder="Enter Your Text"
+              title="please fill in the empty space"
+              required
+              id="message"
+              class="clay"
+            ></textarea>
+          </div>
+          <input type="submit" class="clay button-contact" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
